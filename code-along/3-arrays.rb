@@ -10,3 +10,32 @@
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# create a list of my favorite foods
+favorite_foods = ["tacos", "pizza", "ice cream"]
+
+favorite_foods << "dumplings"
+#favorite_foods << "dumplings"
+puts favorite_foods
+
+#puts favorite_foods [0]
+
+# create a list of Ben's favorite foods
+bens_favorite_foods = ["kale", "sticks", "berries", "nuts"]
+
+# create a list of our favorite foods
+our_favorite_foods = favorite_foods + bens_favorite_foods
+
+#write our collective favorite foods
+#puts our_favorite_foods
+
+# create a shopping list
+shopping_list = [favorite_foods, bens_favorite_foods]
+
+puts shopping_list[1][2]
+#index of shopping list and then the index within the array
+
+#show me the number of items in my favorite foods
+puts "Number of favorite foods: #{our_favorite_foods.size}"
+
+
